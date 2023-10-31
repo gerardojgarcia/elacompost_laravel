@@ -30,6 +30,7 @@ const form = useForm({
         </div>
         <strong>Today's weight: {{ weight }}</strong
         ><strong>Total Weight: {{ weight }}</strong>
+        <p class="last-weight-date">{{ weight.date }}</p>
 
         <PrimaryButton class="justify-center w-1/2 self-center mt-8"
           >Submit</PrimaryButton
